@@ -7,13 +7,19 @@
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
-        android:minHeight="?attr/actionBarSize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:titleTextColor="@android:color/white"
-        android:background="?attr/colorPrimary">
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@android:color/white">
     </android.support.v7.widget.Toolbar>
 
-
+    <TextView
+        android:id="@+id/brithnessAactivityEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginActivityStartTextview"
+        android:text="@string/brithnessActivityTextView"
+        android:textSize="30sp" />
 
 </LinearLayout>
